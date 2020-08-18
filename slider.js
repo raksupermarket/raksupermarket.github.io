@@ -1,4 +1,4 @@
 var app = new Vue({ 
     el: '#app',
 });
-document.write( '<center><p><small>A blog design by <a href=\'https://axcoradesign.blogspot.com/\' rel=\'dofollow\' target=\'blank\'>Axcora Design</a> Digital ART <a href=\'https://mesinkasironline.web.app\' rel=\'dofollow\' target=\'blank\'>mesinkasironline</a></small></p></center>' );
+document.write( '<center><p><small>made with ❤ <a href=\'https://axcoradesign.blogspot.com/\' target=\'blank\'>Axcora Design</a> - <a href=\'https://creativaz.web.app\' target=\'blank\'> Creative - <a href=\'https://gatsbyart.web.app\' target=\'blank\'>The ART</a> - <a href=\'https://mesinkasironline.web.app\' target=\'blank\'>mesinkasironline</a></small></p></center>' );
