@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+{%- include head.html -%}
+<body>
+{%- include headhome.html -%}
+<div class="col-12 col-md-12 p-0 p-md-0 border border-secondary"><img alt="{{ page.title }}" width="100%" class="img-fluid" src="{{ page.cover }}"></div>
+ <div class="col-12 col-md-4 p-3 p-md-3 border border-secondary">
+ <div class="ratio ratio-16x9">
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d253237.33658863878!2d112.764155!3d-7.372564!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf1c5a68f51ebc0e9!2sCV%20Hockey%20Corporation!5e0!3m2!1sid!2sid!4v1648821747349!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+ </div>
+<div class="col-12 col-md-4 p-3 p-md-3 border border-secondary"><h3>Contact Form</h3>
+<form action="https://airform.io/hockeycorpmarketing@gmail.com" method="post">
+  <input type="text" class="form-control bg-dark text-light" name="name" placeholder="Nama dan no WA"><hr/>
+  <textarea name="message" class="form-control bg-dark text-light" placeholder="Masukan Pesan"></textarea><hr/>
+  <button class="btn btn-outline-secondary">Kirim Pesan</button>
+</form>
+</div>
+ <div class="col-12 col-md-4 p-3 p-md-3 border border-secondary">
+<h3>{{ page.t }}</h3><hr/>
+<p>{{ page.s }}</p>
+<p>{{ page.c }}</p>
+<p>{{ page.w }}</p>
+<p>{{ page.ts }}</p>
+
+ </div>
+</div>{{ content }}
+{%- include footer.html -%}

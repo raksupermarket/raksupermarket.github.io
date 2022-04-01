@@ -1,0 +1,58 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@300&display=swap');
+html,
+body {
+  background-color:black;
+  }
+ul,
+li,
+p {
+  font: 100 1.145rem/1.195rem 'Anybody', cursive;
+  color:#A9A9A9;
+}
+.hastag {
+  font: 120 0.905rem/0.965rem 'Anybody', cursive;
+  color:#A9A9A9;
+}
+j {
+  font: 80 0.605rem/0.665rem 'Anybody', cursive;
+  color:#A9A9A9;
+}
+.navi {
+  font: 200 1.545rem/1.555rem 'Anybody', cursive;
+  color:#A9A9A9;
+}
+h1 {
+  font: 500 4.345rem/4.355rem 'Anybody', cursive;
+  color:#A9A9A9;
+}
+h2 {
+  font: 200 3.345rem/3.355rem 'Anybody', cursive;
+  color:#A9A9A9;
+}
+h3 {
+  font: 100 2.345rem/2.355rem 'Anybody', cursive;
+  color:#A9A9A9;
+}
+h5 {
+  font: 100 1.345rem/1.355rem 'Anybody', cursive;
+  color:#A9A9A9;
+}
+div {
+  font: 100 1.345rem/1.355rem 'Anybody', cursive;
+  color:#A9A9A9;
+}
+.navbar-brand {
+  font: 200 1.345rem/1.365rem 'Anybody', cursive;
+  color:#A9A9A9;
+}
+a:link {
+  color:#A9A9A9;
+  text-decoration: none;
+}
+a:visited {
+  color:#A9A9A9;
+  text-decoration: none;
+}

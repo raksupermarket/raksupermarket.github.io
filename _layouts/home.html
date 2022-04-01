@@ -1,0 +1,12 @@
+---
+layout: start
+---
+
+{{ content }}
+{% if site.paginate %}
+{% assign posts = paginator.posts %}
+{% else %}
+{% assign posts = site.posts %}
+{% endif %}
+
+{%- include content.html -%}
